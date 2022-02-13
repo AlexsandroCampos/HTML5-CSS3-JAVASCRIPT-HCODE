@@ -1,0 +1,14 @@
+accesskey - definir uma tecla para focar no elemento
+class - adicionar uma classe
+data - criar uma variável no elemento para armazenar dados
+draggable - permitir que o elemento seja arrastado
+dropzone - definir que o elemento será o local onde outro elemento é solto
+dir - definir a direção de leitura do conteúdo
+contentedible - permitir que o conteúdo de um elemento seja editável
+hidden - ocultar elemento
+translate - permitir ou não que o conteúdo do elemento seja traduzido
+tabindex - definir a ordem de foco dos elementos após ser clicado o tab
+spellcheck - permitir ou não a verificação da ortografia do conteúdo de um elemento
+title - aparecer uma anotação sobre o conteúdo de um elemento
+id - definir o id de um elemento
+lang - idioma do conteúdo do elementoo
