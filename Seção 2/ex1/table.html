@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+
+        tbody tr:nth-of-type(odd){
+            background-color: lightgray;
+        }
+
+        td{
+            padding: 10px;
+        }
+
+        td.real{
+            text-align: right;
+        }
+
+        td.real::before{
+            content: "R$";
+        }
+
+        tfoot tr{
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Esta é uma tabela</caption>
+        <colgroup>
+            <col span="2" style="background-color: purple;">
+            <col style="background-color: blue;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">A1</td>
+                <TD>C1</TD>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td rowspan="2">B2</td>
+                <TD>C2</TD>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <TD>C3</TD>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>footer 1</td>
+                <td>footer 2</td>
+                <td>footer 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
