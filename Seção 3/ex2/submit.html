@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento submit</title>
+</head>
+<body>
+    <form onsubmit="debug(event)">
+        <input type="text">
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <script>
+        function debug(e){
+            e.preventDefault();
+            console.log("Ocorreu o evento: " + e.type);
+        }
+    </script>
+</body>
+</html>

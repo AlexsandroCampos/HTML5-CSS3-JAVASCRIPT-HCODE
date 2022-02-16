@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento copy</title>
+</head>
+<body>
+    <p oncopy="debug(event)">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur nihil architecto, maiores earum aut nesciunt vitae. Animi nulla harum voluptatem, praesentium deserunt suscipit quae laudantium amet molestias sapiente. Ipsum.
+    </p>
+
+    <script>
+        function debug(e){
+            console.log("Ocorreu o evento: " + e.type);
+        }
+    </script>
+</body>
+</html>
